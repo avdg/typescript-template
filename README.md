@@ -1,6 +1,9 @@
 # typescript-template
 Basic typescript project
 
+# Requirements
+- Node and npm, which are bundled in one installer that can be found on http://nodejs.org/
+
 # Usage
 
 - Run `npm install` To install dependencies
