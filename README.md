@@ -1,6 +1,10 @@
 # typescript-template
 Basic typescript project
 
+
+[![Dependency Status](https://david-dm.org/avdg/typescript-template.svg)](https://david-dm.org/avdg/typescript-template)
+[![Dev dependency Status](https://david-dm.org/avdg/typescript-template/dev-status.svg)](https://david-dm.org/avdg/typescript-template?type=dev)
+
 # Requirements
 - Node and npm, which are bundled in one installer that can be found on http://nodejs.org/
 
