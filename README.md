@@ -1,7 +1,6 @@
 # typescript-template
 Basic typescript project
 
-
 [![Dependency Status](https://david-dm.org/avdg/typescript-template.svg)](https://david-dm.org/avdg/typescript-template)
 [![Dev dependency Status](https://david-dm.org/avdg/typescript-template/dev-status.svg)](https://david-dm.org/avdg/typescript-template?type=dev)
 
@@ -10,11 +9,7 @@ Basic typescript project
 
 # Install
 
-- Run `npm install` To install dependencies
-- Run `npm install -g webpack` To install webpack
-- After the dependencies and webpack are installed, use `webpack` to build the project.
-  You can use `webpack --watch` to keep the command active on the background.
-  The program will detect changes in the filesystem and rebuild the project when that happens.
+- Run `npm install` to install dependencies.
 
 # Writing code
 
@@ -26,9 +21,10 @@ Basic typescript project
   this setup. Other files are only executed by importing these files.
 
 # Testing / running code
-- After `webpack` or `webpack --watch` is running and compiling without errors,
-  an (updated) js file will appear in `dist/main.js` with the current settings.
-  This is your export file and contains all code that is consumed by
-  `src/main.ts` or `src/main.js`. This file is your final product.
+
+- Make sure `npm start` is running.
+- After compiling without errors, an (updated) js file will appear in `dist/main.js`.
+  This is your export file and contains all code that is consumed by `src/main.ts`
+  or `src/main.js`. The `dist/main.js` file is your final product.
 
 Enjoy!
