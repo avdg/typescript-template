@@ -4,15 +4,14 @@
   "description": "Typescript template",
   "main": "dist/main.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack --watch",
-    "test": "mocha"
+    "start": "./node_modules/.bin/webpack --watch"
   },
   "author": "Anthony Van de Gejuchte",
   "license": "MIT",
   "devDependencies": {
     "ts-loader": "^6.0.0",
-    "typescript": "^3.4",
-    "webpack": "^4.31",
+    "typescript": "^3.5",
+    "webpack": "^4.32",
     "webpack-cli": "^3.3"
   }
 }
