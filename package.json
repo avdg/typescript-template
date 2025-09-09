@@ -4,14 +4,14 @@
   "description": "Typescript template",
   "main": "dist/main.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack --watch"
+  "start": "webpack --watch"
   },
   "author": "Anthony Van de Gejuchte",
   "license": "MIT",
   "devDependencies": {
-    "ts-loader": "^6.0.0",
-    "typescript": "^3.5",
-    "webpack": "^4.32",
-    "webpack-cli": "^3.3"
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.9",
+    "webpack": "^5.101",
+    "webpack-cli": "^6.0"
   }
 }
